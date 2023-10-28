@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en,ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Resume,cv,my,My,resume">
+    <meta name="description" content="Это - мое резюме">
+    <link rel="stylesheet" href="resume.css">
+    <title>"My Resume"</title>
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <img class="avatar" src="foto.jpg" alt="фото Татьяны">
+            <div class="info-text">
+                <h2>Татьяна Колегова</h2>
+                
+                <p>Я уже на пенсии и <strong>ищю работу на дому</strong>. </p> 
+                <p><em>Мне интересно программирование и я хочу<br> попробовать свои силы в этом, узнать получится ли у меня</em>.</p>
+                   
+                <h4>Социальные сети:</h4>
+                    
+                <a href="https://vk.com/id497357604" target="_blank">ВКонтакте</a>
+                |
+                <a href="https://ok.ru/profile/524853903808" target="_blank">Однокласники</a>
+                   
+            </div>
+        </div>
+
+        <div class="card bg-green">
+            <h3>Хобби</h3>
+            
+            <ol class="list">
+                <li>Научная фантасика</li>
+                <li>Изучение программирования</li>
+            </ol>
+        </div>
+
+        <div class="card bg-blue">
+            <h3>Опыт работы</h3>
+            
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>Магазин</td>
+                    <td>Продавец-кассир</td>
+                    <td>2003-2010</td>
+                    </tr>
+                    <tr>
+                        <td>Супермаркет"Магнит"</td>
+                        <td>Продавец-кассир</td>
+                        <td>2010-2018</td>
+                    </tr>
+                    <tr>
+                        <td>Парикмахерская</td>
+                        <td>Администратор</td>
+                        <td>2018-2023</td>
+                    </tr>
+                </tbody> 
+            </table>
+        </div>
+
+        
+            
+            
+            <form action="/" class="form">
+                <h3>Связаться со мной</h3>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите имя">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="email" id="email" placeholder="Введите email">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Ваше сообщение:</label>
+                    
+                    <textarea id="message" placeholder="Введите сообщение..." cols="25" rows="5"></textarea>
+                </div>
+                <br>
+                <button class="btn" type="submit">Отправить!</button>
+            </form>
+        </div>    
+    </div>   
+    
+</body>
+</html>

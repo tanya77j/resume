@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=Roboto:wght@500&display=swap');
+
+body {
+    font-family: 'Inria+Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    background:#FDF4E3 ;
+    color: #3b3b3d;
+   
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.avatar {
+    width: 25%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 14px rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+    margin: 0;
+   
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+    
+.info-text {
+    margin-bottom: 10px; 
+    margin-left: 20px; 
+   
+}
+
+.info-text p {
+    letter-spacing: 1px;
+    /* word-spacing: 5px; */
+    font-weight: lighter;
+    font-style: italic;
+    color: #7c7878;
+    margin: 0;
+}
+
+@media (max-width: 727px) {
+    .info {
+        display: block;
+        text-align: center;
+     }
+}
+
+.card {
+    border-radius: 15px;
+    padding: 10px ;
+    margin-bottom: 10px;
+}
+
+.card h2, h4, h3 {
+    margin-bottom: 10px;
+}
+
+
+
+.bg-green {
+    background: #17d017;
+}
+
+.bg-blue {
+    background: rgb(36, 131, 247);
+}
+
+a {
+    color: crimson;
+    text-decoration: none;
+    
+}
+
+a:hover {
+   
+    color: blueviolet;
+    text-decoration: underline;
+    font-size: 1rem;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: #7c7878;
+}
+
+.btn {
+    background: red;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.btn:hover {
+    opacity: 0.8;
+    color: yellow;
+    font-size: 1rem;
+}
+
+.list li {
+    margin-bottom: 10px;
+    
+}
+
+thead > tr {
+    background-color: darkgray;
+}
+
+table {
+    width: 100%;
+    border: 1px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 4px 6px;
+    
+}
+
+th {
+    vertical-align: bottom;
+}
+
+td {
+    background-color: #f5f5dc;
+}
+
+.form h3 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    width: 50%;
+    margin-right: 20px;
+    /* width: calc(50% - 20px); */
+    /* display: inline-block; */
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 600px) {
+    .form-row {
+        display: block;
+    }
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.form-group  label {
+    display: block;
+    font-size: 15px;
+    color: #353637;
+    padding-left: 15px;
+
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: #7c7878;
+    border-radius: 15px;
+    border: none; 
+    color: #000;
+    padding: 10px 10px 10px;
+    outline: none; 
+    font-family: inherit;
+    
+}
